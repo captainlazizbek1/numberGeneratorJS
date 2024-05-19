@@ -1,0 +1,42 @@
+.title {
+    font-size: 3rem;
+    font-family: monospace;
+}
+input {
+    display: inline-block;
+    width: 45%;
+    height: 2rem;
+    margin: auto;
+}
+input:active {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+input:hover {
+    box-shadow: 5px 5px 5px #878787;
+}
+#btn {
+    font-size: 1rem;
+    font-family:'Courier New', Courier, monospace;
+    background-color: aqua;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    width: 90%;
+    height: 3em;
+    margin-top: 1em;
+}
+#btn:hover {
+    width: 89%;
+    height: 2.95em;
+    box-shadow: 5px 5px 5px #878787;
+}
+.divCont {
+    text-align: center;
+    vertical-align: middle;
+    width: 60%;
+    height:20rem;
+    border-radius:10px;
+    text-transform: capitalize;
+    margin: auto;
+    background-color: #FDAB9F   
+}
